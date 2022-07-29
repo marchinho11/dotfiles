@@ -14,7 +14,7 @@ cmp.setup(
     {
         snippet = {
             expand = function(args)
-                vim.fn["vsnip#anonymous"](args.body)
+                require('snippy').expand_snippet(args.body)
             end
         },
         window = {},
@@ -50,7 +50,7 @@ cmp.setup(
         sources = cmp.config.sources(
             {
                 {name = "nvim_lsp"},
-                {name = "vsnip"},
+                {name = "snippy"},
                 {
                   name = "buffer",
                   option = {

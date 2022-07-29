@@ -12,6 +12,7 @@ plugins=(git kubectl docker docker-compose zsh-autosuggestions zsh-syntax-highli
 
 source $ZSH/oh-my-zsh.sh
 source ~/powerlevel10k/powerlevel10k.zsh-theme
+source ~/dotfiles/.fzf.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f $XDG_CONFIG_HOME/.p10k.zsh ]] || source $XDG_CONFIG_HOME/.p10k.zsh
@@ -23,4 +24,5 @@ export PATH="$HOME/dotfiles/bin:$PATH"
 
 alias nv=nvim
 alias python=python3.9
-
+alias mux=tmuxinator
+alias t=tmux

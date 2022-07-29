@@ -1,14 +1,4 @@
 #!/usr/bin/env bash
 
-session="svodka"
-project_dir="$HOME/PycharmProjects/svodka/"
-
-
-tmux has-session -t $session 2>/dev/null
-if [ $? != 0 ]; then
-    cd "$project_dir" && \
-        tmux new-session -d -s $session 'nvim .'
-fi
-
-tmux attach -t $session
+tmuxinator start svodka
 

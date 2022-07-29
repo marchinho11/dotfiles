@@ -1,0 +1,195 @@
+
+# 2022-07-28 18:52:55.518169
++\dt
+
+# 2022-07-28 18:53:05.891426
++select * from item_data where title is NULL;
+
+# 2022-07-28 18:53:23.825389
++select count(*) from item_data where title is NULL;
+
+# 2022-07-28 18:53:53.104860
++select distinct(platform) from item_data where title is NULL;
+
+# 2022-07-28 18:56:08.018373
++:q
+
+# 2022-07-28 19:05:59.611549
++select published_at from item_data limit 10;
+
+# 2022-07-28 19:06:10.747453
++select published_at + interval random()  from item_data limit 10;
+
+# 2022-07-28 19:08:15.182066
++select published_at + random() * (curent_timestamp() - published_at)  from item_data limit 10;
+
+# 2022-07-28 19:08:21.479064
++select published_at + random() * (curent_timestamp - published_at)  from item_data limit 10;
+
+# 2022-07-28 19:08:30.696058
++select current_timestamp
+
+# 2022-07-28 19:08:39.344676
++select published_at + random() * (curent_timestamp() - published_at)  from item_data limit 10;
+
+# 2022-07-28 19:08:48.489038
++select published_at + random() * (current_timestamp() - published_at)  from item_data limit 10;
+
+# 2022-07-28 19:08:58.712057
++select published_at + random() * (current_timestamp - published_at)  from item_data limit 10;
+
+# 2022-07-28 19:09:10.161684
++select random()
+
+# 2022-07-28 19:09:16.121738
++select published_at + random() * (current_timestamp - published_at)  from item_data limit 10;
+
+# 2022-07-28 19:09:57.977730
++update item_data set published_at = published_at + random() * (current_timestamp - published_at) where is_actual = true
+
+# 2022-07-28 19:12:48.820782
++truncate table feed_page
+
+# 2022-07-29 10:45:10.129015
++select * from source_data where url_avatar is NULL and platform = 'vk'
+
+# 2022-07-29 10:45:26.945323
++select count(*) from source_data where url_avatar is NULL and platform = 'vk'
+
+# 2022-07-29 10:45:29.921556
++select * from source_data where url_avatar is NULL and platform = 'vk'
+
+# 2022-07-29 10:45:47.938080
++select * from source_data where url_avatar is NULL and platform = 'vk' and is_actual=true
+
+# 2022-07-29 10:45:56.122057
++select * from source_data where url_avatar is not NULL and platform = 'vk' and is_actual=true
+
+# 2022-07-29 10:46:12.152441
++select count(*) from source_data where url_avatar is not NULL and platform = 'vk' and is_actual=true
+
+# 2022-07-29 10:51:47.646759
++select * from source_data where name = 'Rozetked'
+
+# 2022-07-29 10:52:01.270723
++select url_avatar from source_data where name = 'Rozetked'
+
+# 2022-07-29 10:53:58.361619
++truncate table feed_page
+
+# 2022-07-29 18:25:10.014454
++select url from item_dat where is_actual = true and platform = 'meduza'
+
+# 2022-07-29 18:25:22.531407
++select url from item_data where is_actual = true and platform = 'meduza'
+
+# 2022-07-29 18:27:29.131771
++select min(load_date) from data_raw;
+
+# 2022-07-29 18:27:36.638663
++select min(loaded_date) from data_raw;
+
+# 2022-07-29 18:27:45.343382
++select min(loaded_at) from data_raw;
+
+# 2022-07-29 18:37:38.061845
++select count(*) from item_data where is_actual = true;
+
+# 2022-07-29 18:38:24.029927
++truncate table feed_page
+
+# 2022-07-29 18:42:28.532065
++select count(*) from item_data where is_actual = true;
+
+# 2022-07-29 18:44:34.192814
++select max(version) from item_data
+
+# 2022-07-29 18:44:45.891149
++truncate table feed_page
+
+# 2022-07-29 18:45:30.425827
++select max(version) from item_data
+
+# 2022-07-29 18:45:32.541488
++select count(*) from item_data where is_actual = true;
+
+# 2022-07-29 18:45:54.733678
++select platform, max(version) group by platform
+
+# 2022-07-29 18:46:01.051031
++select platform, max(version) from item_data group by platform
+
+# 2022-07-29 18:46:19.266799
++select count(*) from item_data;
+
+# 2022-07-29 18:46:35.057055
++truncate table feed_page
+
+# 2022-07-29 18:54:12.912667
++delete from item_data where platform = 'meduza'
+
+# 2022-07-29 18:54:22.097816
++truncate table feed_page
+
+# 2022-07-29 18:55:04.845440
++select count(*) from item_data
+
+# 2022-07-29 18:55:13.298527
++select count(*) from item_data where language_detected = 'ru'
+
+# 2022-07-29 18:55:19.632262
++select count(*) from item_data where language_detected = 'ru' and is_actual = True
+
+# 2022-07-29 18:56:07.312437
++select platform, count(*) from item_data group by platform
+
+# 2022-07-29 18:56:31.085617
++select title from item_data where is_actual = True
+
+# 2022-07-29 18:57:06.832350
++select * from item_data where platform = 'vk' and is_actual = True
+
+# 2022-07-29 18:57:46.302603
++select count(*) from item_data where language = 'ru' or language_detected = 'ru'
+
+# 2022-07-29 18:57:51.759030
++select count(*) from item_data where language = 'ru' or language_detected = 'ru' and is_actual = True
+
+# 2022-07-29 19:02:17.029218
++delete from item_data;
+
+# 2022-07-29 19:02:23.390391
++delete from source_data;
+
+# 2022-07-29 19:02:45.591738
++select * from feed_page;
+
+# 2022-07-29 19:04:22.168582
++select count(*) from item_data where language_detected = 'ru'
+
+# 2022-07-29 19:04:28.534503
++select count(*) from item_data;
+
+# 2022-07-29 19:05:24.179592
++delete from source_data;
+
+# 2022-07-29 19:05:29.332227
++delete from item_data;
+
+# 2022-07-29 19:08:37.060182
++select count(*) from item_data;
+
+# 2022-07-29 19:08:41.781139
++select count(*) from item_data where language_detected = 'ru'
+
+# 2022-07-29 19:11:08.618137
++select * from tracking where type = 'click'
+
+# 2022-07-29 19:17:24.882788
++select count(*) from trackingl
+
+# 2022-07-29 19:17:26.729157
++select count(*) from tracking;
+
+# 2022-07-29 20:47:24.792445
++exit

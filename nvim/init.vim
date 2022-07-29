@@ -17,17 +17,17 @@ Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
-Plug 'hrsh7th/cmp-vsnip'
-Plug 'hrsh7th/vim-vsnip'
+Plug 'dcampos/nvim-snippy'
+Plug 'dcampos/cmp-snippy'
 call plug#end()
 
 
-source ~/.config/nvim/settings.vim
-source ~/.config/nvim/theme.vim
-source ~/.config/nvim/nerd_tree.vim
-source ~/.config/nvim/airline.vim
-source ~/.config/nvim/fzf.vim
-source ~/.config/nvim/mappings.vim
+source ~/dotfiles/nvim/settings.vim
+source ~/dotfiles/nvim/theme.vim
+source ~/dotfiles/nvim/nerd_tree.vim
+source ~/dotfiles/nvim/airline.vim
+source ~/dotfiles/nvim/fzf.vim
+source ~/dotfiles/nvim/mappings.vim
 
 lua require('init')
 

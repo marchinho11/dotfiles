@@ -1,0 +1,15 @@
+name: svodka
+root: ~/PycharmProjects/svodka
+
+windows:
+  - root: nv .
+  - nv_ui:
+      root: ~/PycharmProjects/svodka/ui
+      panes:
+        - "nv ."
+  - poetry_shell:
+      root: ~/PycharmProjects/svodka
+      panes:
+        - "poetry shell"        
+  - pg: pgcli -h localhost svodka_backend
+

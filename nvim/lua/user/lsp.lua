@@ -12,4 +12,8 @@ lspconfig["pyright"].setup {
     end
 }
 
-lspconfig["tsserver"].setup{}
+-- lspconfig["tsserver"].setup{}
+
+lspconfig["volar"].setup{
+  filetypes = {'typescript', 'javascript', 'javascriptreact', 'typescriptreact', 'vue', 'json'}
+}
