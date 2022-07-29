@@ -1,5 +1,5 @@
 To install:
-```
+```bash
 brew install \
     the_silver_searcher \
     fd \
@@ -8,7 +8,7 @@ brew install \
     nvim
 ```
 
-```
+```bash
 git clone 
 echo 'source $HOME/dotfiles/.zshrc' > ~/.zshrc
 ```
