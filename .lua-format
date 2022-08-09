@@ -1,0 +1,9 @@
+single_quote_to_double_quote: true
+indent_width: 2
+keep_simple_control_block_one_line: false
+keep_simple_function_one_line: false
+break_after_functioncall_lp: true
+break_before_functioncall_rp: true
+align_parameter: false
+chop_down_parameter: true
+chop_down_table: true

@@ -19,6 +19,10 @@ Plug 'hrsh7th/nvim-cmp'
 Plug 'dcampos/nvim-snippy'
 Plug 'dcampos/cmp-snippy'
 Plug 'nvim-treesitter/nvim-treesitter'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'scalameta/nvim-metals'
+Plug 'andrejlevkovitch/vim-lua-format'
+Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
 
