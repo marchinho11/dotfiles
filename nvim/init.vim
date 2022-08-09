@@ -18,6 +18,7 @@ Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
 Plug 'dcampos/nvim-snippy'
 Plug 'dcampos/cmp-snippy'
+Plug 'nvim-treesitter/nvim-treesitter'
 call plug#end()
 
 
