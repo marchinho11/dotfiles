@@ -14,6 +14,7 @@ require('nvim-treesitter.configs').setup({
       "yaml",
       "css",
       "lua",
+      "markdown"
   },
   sync_install = false,
   auto_install = true,
