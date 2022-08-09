@@ -29,6 +29,10 @@ nnoremap dd "_dd
 vnoremap d "_d
 vnoremap dd "_dd
 
+" Clear highlight on pressing ESC twice
+nnoremap <esc><esc> :noh<return>
+
+
 " Left and right can switch buffers
 " nnoremap <left> :bp<CR>
 " nnoremap <right> :bn<CR>
