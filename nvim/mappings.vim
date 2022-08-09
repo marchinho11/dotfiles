@@ -23,6 +23,13 @@ inoremap <right> <nop>
 map <F1> <Esc>
 imap <F1> <Esc>
 
+" Delete to black hole
+nnoremap d "_d
+nnoremap dd "_dd
+vnoremap d "_d
+vnoremap dd "_dd
+
 " Left and right can switch buffers
 " nnoremap <left> :bp<CR>
 " nnoremap <right> :bn<CR>
+
