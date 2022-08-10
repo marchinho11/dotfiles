@@ -345,6 +345,7 @@
     "Alpha Component" : 1,
     "Green Component" : 0.99263292551040649
   },
+  "ASCII Ligatures" : true,
   "Name" : "mark",
   "Cursor Text Color" : {
     "Red Component" : 0,
@@ -387,7 +388,7 @@
   },
   "Use Non-ASCII Font" : false,
   "Has Hotkey" : false,
-  "Normal Font" : "MonacoforPowerline 13",
+  "Normal Font" : "JetBrainsMonoNerdFontComplete-Regular 15",
   "Ansi 6 Color" : {
     "Red Component" : 0,
     "Color Space" : "sRGB",
