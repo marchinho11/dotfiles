@@ -23,6 +23,8 @@ Plug 'nvim-lua/plenary.nvim'
 Plug 'scalameta/nvim-metals'
 Plug 'andrejlevkovitch/vim-lua-format'
 Plug 'jiangmiao/auto-pairs'
+Plug 'folke/todo-comments.nvim'
+Plug 'akinsho/bufferline.nvim'
 call plug#end()
 
 

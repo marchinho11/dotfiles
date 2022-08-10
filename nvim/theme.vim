@@ -6,7 +6,7 @@ colorscheme molokai
 " colorscheme github
 " colorscheme onedark
 
-" White colors for LSP messages in code
+" " White colors for LSP messages in code
 hi DiagnosticError guifg=White
 hi DiagnosticWarn  guifg=White
 hi DiagnosticInfo  guifg=White
