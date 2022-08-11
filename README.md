@@ -31,7 +31,7 @@ npm install -g \
 ```bash
 cs setup
 cs install scala:2.13.8 scalac:2.13.8 
-cs install metals
+cs install metals:0.11.7
 ```
 
 ### lua format
