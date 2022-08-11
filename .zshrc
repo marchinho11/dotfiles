@@ -11,7 +11,7 @@ ZSH_THEME='agnoster'
 plugins=(git kubectl docker docker-compose zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
-source ~/powerlevel10k/powerlevel10k.zsh-theme
+source ~/dotfiles/powerlevel10k/powerlevel10k.zsh-theme
 source ~/dotfiles/.fzf.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
@@ -20,7 +20,9 @@ source ~/dotfiles/.fzf.zsh
 export PATH="$HOME/.poetry/bin:$PATH"
 export PATH="/usr/local/opt/ruby/bin:$PATH"
 export PATH="/usr/local/opt/libpq/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/dotfiles/bin:$PATH"
+export PATH="/Users/u17485588/Library/Application Support/Coursier/bin:$PATH"
 
 alias nv=nvim
 alias python=python3.9

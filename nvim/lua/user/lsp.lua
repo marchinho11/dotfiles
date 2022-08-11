@@ -24,8 +24,6 @@ map("n", "<leader>rn", "<cmd>lua vim.lsp.buf.rename()<CR>")
 
 lspconfig["pyright"].setup {capabilities = capabilities}
 
--- lspconfig["tsserver"].setup{}
-
 lspconfig["volar"].setup {
   filetypes = {
     "typescript",
