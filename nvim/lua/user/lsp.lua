@@ -37,4 +37,4 @@ lspconfig["volar"].setup {
   }
 }
 
-lspconfig["metals"].setup {}
+lspconfig["metals"].setup {filetypes = {"scala", "sbt"}}

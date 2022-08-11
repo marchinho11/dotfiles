@@ -11,6 +11,13 @@ nnoremap <leader>f :Rg
 nmap <leader>l :bnext<CR>
 nmap <leader>h :bprevious<CR>
 
+" Navigating beteen splits
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
+
 " No arrow keys --- force yourself to use the home row
 nnoremap <up> <nop>
 nnoremap <down> <nop>

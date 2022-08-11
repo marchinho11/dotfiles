@@ -3,6 +3,7 @@ brew install \
     the_silver_searcher \
     fd \
     tmux \
+    tig \
     tmuxinator \
     nvim
 ```
