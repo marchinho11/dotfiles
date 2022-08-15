@@ -13,8 +13,10 @@ echo 'source $HOME/dotfiles/.zshrc' > ~/.zshrc
 brew install \
     the_silver_searcher \
     fd \
+    httpie \
     tmux \
     tig \
+    git-secret \
     tmuxinator \
     nvim
 ```

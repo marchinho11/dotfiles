@@ -24,6 +24,7 @@ Plug 'andrejlevkovitch/vim-lua-format'
 Plug 'jiangmiao/auto-pairs'
 Plug 'folke/todo-comments.nvim'
 Plug 'akinsho/bufferline.nvim'
+Plug 'derekwyatt/vim-scala'
 call plug#end()
 
 

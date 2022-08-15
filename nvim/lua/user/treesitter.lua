@@ -8,7 +8,6 @@ require("nvim-treesitter.configs").setup(
         "json",
         "make",
         "python",
-        "scala",
         "java",
         "proto",
         "sql",
@@ -22,7 +21,7 @@ require("nvim-treesitter.configs").setup(
         "regex"
       },
       sync_install = false,
-      auto_install = true,
-      highlight = {enable = true}
+      auto_install = false,
+      highlight = {enable = true, disable = {"scala"}}
     }
 )

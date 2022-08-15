@@ -21,6 +21,7 @@ map("n", "gi", "<cmd>lua vim.lsp.buf.implementation()<CR>")
 map("n", "gr", "<cmd>lua vim.lsp.buf.references()<CR>")
 map("n", "K", "<cmd>lua vim.lsp.buf.hover()<CR>")
 map("n", "<leader>rn", "<cmd>lua vim.lsp.buf.rename()<CR>")
+map("n", "<leader>F", "<cmd>lua vim.lsp.buf.formatting()<CR>")
 
 lspconfig["pyright"].setup {capabilities = capabilities}
 
