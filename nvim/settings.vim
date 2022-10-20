@@ -1,7 +1,6 @@
 let mapleader = " "
 
 au FocusGained,BufEnter * :checktime " Autoreload
-
 syntax enable
 
 set number

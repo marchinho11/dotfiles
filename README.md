@@ -18,6 +18,7 @@ brew install \
     tig \
     git-secret \
     tmuxinator \
+    hyperfine \
     nvim
 ```
 2. Install `vim-plug` and do `:PlugInstall`

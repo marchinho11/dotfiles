@@ -24,6 +24,8 @@ Plug 'andrejlevkovitch/vim-lua-format'
 Plug 'jiangmiao/auto-pairs'
 Plug 'folke/todo-comments.nvim'
 Plug 'akinsho/bufferline.nvim'
+Plug 'ryanoasis/vim-devicons'
+Plug 'bryanmylee/vim-colorscheme-icons'
 Plug 'derekwyatt/vim-scala'
 call plug#end()
 

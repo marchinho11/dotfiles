@@ -1,9 +1,7 @@
 let NERDTreeShowLineNumbers=1
 
-let g:NERDTreeDirArrowExpandable="+"
-let g:NERDTreeDirArrowCallapsible="~"
-
+let g:NERDTreeDirArrowExpandable=''
+let g:NERDTreeDirArrowCollapsible=''
+let g:NERDTreeShowLineNumbers=1
 let NERDTreeIgnore = ['\.pyc$', '__pycache__$']
-
-autocmd FileType nerdtree setlocal relativenumber
 
