@@ -47,7 +47,7 @@ if [ -f '/Users/mark/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/
 export EDITOR=nvim
 
 alias nv=nvim
-alias python=python3.9
+alias python=python3
 alias mux=tmuxinator
 alias t=tmux
 
