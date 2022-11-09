@@ -18,7 +18,8 @@ require("nvim-treesitter.configs").setup(
         "css",
         "lua",
         "markdown",
-        "regex"
+        "regex",
+        "hcl",
       },
       sync_install = false,
       auto_install = false,

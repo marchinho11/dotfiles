@@ -28,6 +28,6 @@ export PATH="$PATH:$HOME/.pub-cache/bin" # flutterfile
 export PATH="/usr/local/lib/ruby/gems/3.1.0/bin:$PATH"
 
 alias nv=nvim
-alias python=python3.9
+alias python=python3
 alias mux=tmuxinator
 alias t=tmux
