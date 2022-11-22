@@ -7,3 +7,6 @@ pgcli/
 jgit/
 fontforge/
 htop/
+
+*.backup
+

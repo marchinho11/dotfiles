@@ -1,7 +1,7 @@
 call plug#begin()
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'preservim/nerdtree'
+Plug 'preservim/nerdtree' 
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tpope/vim-commentary'
 Plug 'akinsho/toggleterm.nvim'
@@ -22,7 +22,7 @@ Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'andrejlevkovitch/vim-lua-format'
 Plug 'jiangmiao/auto-pairs'
-Plug 'folke/todo-comments.nvim'
+Plug 'folke/todo-comments.nvim', {'branch': 'neovim-pre-0.8.0'}
 Plug 'akinsho/bufferline.nvim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'bryanmylee/vim-colorscheme-icons'
@@ -36,6 +36,7 @@ source ~/dotfiles/nvim/nerd_tree.vim
 source ~/dotfiles/nvim/airline.vim
 source ~/dotfiles/nvim/fzf.vim
 source ~/dotfiles/nvim/mappings.vim
+source ~/dotfiles/nvim/golang.vim
 
 lua require('init')
 
