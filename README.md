@@ -19,7 +19,9 @@ brew install \
     git-secret \
     tmuxinator \
     hyperfine \
-    nvim
+    nvim \
+    tflint
+brew install hashicorp/tap/terraform-ls
 ```
 2. Install `vim-plug` and do `:PlugInstall`
 

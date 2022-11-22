@@ -26,6 +26,7 @@ Plug 'folke/todo-comments.nvim'
 Plug 'akinsho/bufferline.nvim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'bryanmylee/vim-colorscheme-icons'
+Plug 'hashivim/vim-terraform'
 call plug#end()
 
 

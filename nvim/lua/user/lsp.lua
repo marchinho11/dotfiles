@@ -36,3 +36,8 @@ lspconfig["volar"].setup {
   }
 }
 
+lspconfig["gopls"].setup{}
+
+lspconfig["terraformls"].setup{}
+lspconfig["tflint"].setup{}
+
