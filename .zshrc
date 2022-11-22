@@ -26,6 +26,9 @@ export PATH="/Users/u17485588/Library/Application Support/Coursier/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH" # rabbitmq
 export PATH="$PATH:$HOME/.pub-cache/bin" # flutterfile
 export PATH="/usr/local/lib/ruby/gems/3.1.0/bin:$PATH"
+export PATH="/Users/arseny/Library/Python/3.9/bin:$PATH"
+# fh
+export PATH="/Users/arseny/code/search-data-pipelines/bin:$PATH"
 
 alias nv=nvim
 alias python=python3
