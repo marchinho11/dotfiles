@@ -9,3 +9,5 @@ fontforge/
 htop/
 op/
 
+*.backup
+

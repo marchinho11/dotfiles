@@ -8,7 +8,15 @@ export ZSH=$HOME/.oh-my-zsh
 
 ZSH_THEME='agnoster'
 
-plugins=(git kubectl docker docker-compose zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(
+    git 
+    kubectl 
+    docker 
+    docker-compose 
+    zsh-autosuggestions 
+    zsh-syntax-highlighting
+    terraform
+)
 
 source $ZSH/oh-my-zsh.sh
 source ~/dotfiles/powerlevel10k/powerlevel10k.zsh-theme
@@ -26,12 +34,17 @@ export PATH="/Users/u17485588/Library/Application Support/Coursier/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH" # rabbitmq
 export PATH="$PATH:$HOME/.pub-cache/bin" # flutterfile
 export PATH="/usr/local/lib/ruby/gems/3.1.0/bin:$PATH"
-export PATH="/Users/arseny/Library/Python/3.9/bin:$PATH"
+# go
+export GOPATH="$HOME/go"
+export PATH="$PATH:$GOPATH/bin"
 # fh
+export PATH="/Users/arseny/Library/Python/3.9/bin:$PATH"
 export PATH="/Users/arseny/code/search-data-pipelines/bin:$PATH"
-export PATH="$HOME/go/bin:$PATH"
+
+export EDITOR=nvim
 
 alias nv=nvim
 alias python=python3
 alias mux=tmuxinator
 alias t=tmux
+
