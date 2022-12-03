@@ -38,8 +38,9 @@ export PATH="/usr/local/lib/ruby/gems/3.1.0/bin:$PATH"
 export GOPATH="$HOME/go"
 export PATH="$PATH:$GOPATH/bin"
 # fh
-export PATH="/Users/arseny/Library/Python/3.9/bin:$PATH"
-export PATH="/Users/arseny/code/search-data-pipelines/bin:$PATH"
+export PATH="$HOME/Library/Python/3.9/bin:$PATH"
+export PATH="$HOME/code/search-data-pipelines/bin:$PATH"
+export PATH="$HOME/nvim/bin:$PATH"
 
 export EDITOR=nvim
 
