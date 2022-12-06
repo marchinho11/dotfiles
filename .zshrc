@@ -34,15 +34,13 @@ export PATH="/Users/u17485588/Library/Application Support/Coursier/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH" # rabbitmq
 export PATH="$PATH:$HOME/.pub-cache/bin" # flutterfile
 export PATH="/usr/local/lib/ruby/gems/3.1.0/bin:$PATH"
-export PATH="$HOME/nvim-osx64/bin:$PATH"
-
+# go
 export GOPATH="$HOME/go"
 export PATH="$PATH:$GOPATH/bin"
-
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/mark/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/mark/Downloads/google-cloud-sdk/path.zsh.inc'; fi
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/mark/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/mark/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+# fh
+export PATH="$HOME/Library/Python/3.9/bin:$PATH"
+export PATH="$HOME/code/search-data-pipelines/bin:$PATH"
+export PATH="$HOME/nvim/bin:$PATH"
 
 export EDITOR=nvim
 

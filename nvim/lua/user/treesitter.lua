@@ -23,7 +23,6 @@ require("nvim-treesitter.configs").setup(
         "hcl",
       },
       sync_install = false,
-      auto_install = false,
-      highlight = {enable = true, disable = {"scala"}}
+      auto_install = false
     }
 )

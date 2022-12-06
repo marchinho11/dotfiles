@@ -36,6 +36,8 @@ lspconfig["volar"].setup {
   }
 }
 
-lspconfig["metals"].setup {filetypes = {"scala", "sbt"}}
-
 lspconfig["gopls"].setup {capabilities = capabilities}
+
+lspconfig["terraformls"].setup{}
+lspconfig["tflint"].setup{}
+

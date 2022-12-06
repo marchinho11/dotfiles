@@ -26,7 +26,9 @@ Plug 'folke/todo-comments.nvim', {'branch': 'neovim-pre-0.8.0'}
 Plug 'akinsho/bufferline.nvim'
 Plug 'ryanoasis/vim-devicons'
 Plug 'bryanmylee/vim-colorscheme-icons'
-Plug 'derekwyatt/vim-scala'
+Plug 'hashivim/vim-terraform'
+Plug 'marchinho11/lkml.vim'
+Plug 'APZelos/blamer.nvim'
 call plug#end()
 
 

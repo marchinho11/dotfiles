@@ -47,3 +47,9 @@ set completeopt=menu,menuone,noselect
 autocmd FileType lua nnoremap <buffer> <c-k> :call LuaFormat()<cr>
 autocmd BufWrite *.lua call LuaFormat()
 
+" Blamer config
+let g:blamer_enabled = 1
+let g:blamer_delay = 750
+let g:blamer_show_in_insert_modes = 0
+let g:blamer_date_format = '%d.%m.%y'
+

@@ -1,3 +1,8 @@
+# dotfiles
+![](assets/nvim_demo_1-min.png)
+
+
+## Setup
 ### iterm2
 1. Install fonts from `iterm2/`
 2. Import iterm2 profile
@@ -26,7 +31,9 @@ brew install \
     tig \
     git-secret \
     tmuxinator \
-    hyperfine
+    hyperfine \
+    tflint
+brew install hashicorp/tap/terraform-ls
 ```
 2. Install `vim-plug` and do `:PlugInstall`
 
@@ -36,12 +43,6 @@ brew install \
 npm install -g \
     pyright \
     @volar/vue-language-server
-```
-- metals
-```bash
-cs setup
-cs install scala:2.13.8 scalac:2.13.8 
-cs install metals:0.11.7
 ```
 
 ### lua format

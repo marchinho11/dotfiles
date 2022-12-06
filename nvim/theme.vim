@@ -1,7 +1,9 @@
+" let g:gruvbox_contrast_dark = 'hard'
+
 " colorscheme jellybeans
-" colorscheme gruvbox
+colorscheme gruvbox
 " colorscheme darcula
-colorscheme molokai
+" colorscheme molokai
 " colorscheme sonokai
 " colorscheme github
 " colorscheme onedark
