@@ -1,3 +1,5 @@
+" let g:gruvbox_contrast_dark = 'hard'
+
 " colorscheme jellybeans
 colorscheme gruvbox
 " colorscheme darcula
