@@ -46,3 +46,6 @@ nnoremap Gd :Gvdiffsplit<cr>
 " nnoremap <left> :bp<CR>
 " nnoremap <right> :bn<CR>
 
+" do nothing
+command! W echo "W"
+
