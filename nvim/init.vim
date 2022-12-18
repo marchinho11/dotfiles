@@ -29,6 +29,7 @@ Plug 'bryanmylee/vim-colorscheme-icons'
 Plug 'hashivim/vim-terraform'
 Plug 'marchinho11/lkml.vim'
 Plug 'APZelos/blamer.nvim'
+Plug 'terrastruct/d2-vim'
 call plug#end()
 
 
