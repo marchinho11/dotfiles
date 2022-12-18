@@ -30,6 +30,7 @@ Plug 'hashivim/vim-terraform'
 Plug 'marchinho11/lkml.vim'
 Plug 'APZelos/blamer.nvim'
 Plug 'terrastruct/d2-vim'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 call plug#end()
 
 
@@ -39,7 +40,6 @@ source ~/dotfiles/nvim/nerd_tree.vim
 source ~/dotfiles/nvim/airline.vim
 source ~/dotfiles/nvim/fzf.vim
 source ~/dotfiles/nvim/mappings.vim
-source ~/dotfiles/nvim/golang.vim
 
 lua require('init')
 

@@ -38,6 +38,5 @@ lspconfig["volar"].setup {
 
 lspconfig["gopls"].setup {capabilities = capabilities}
 
-lspconfig["terraformls"].setup{}
-lspconfig["tflint"].setup{}
-
+lspconfig["terraformls"].setup {}
+lspconfig["tflint"].setup {}
