@@ -10,5 +10,7 @@ htop/
 op/
 
 *.backup
+
 nvm/
+dlv/
 

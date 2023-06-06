@@ -25,17 +25,6 @@ map("n", "<leader>F", "<cmd>lua vim.lsp.buf.formatting()<CR>")
 
 lspconfig["pyright"].setup {capabilities = capabilities}
 
-lspconfig["volar"].setup {
-  filetypes = {
-    "typescript",
-    "javascript",
-    "javascriptreact",
-    "typescriptreact",
-    "vue",
-    "json"
-  }
-}
-
 lspconfig["gopls"].setup {capabilities = capabilities}
 
 lspconfig["terraformls"].setup {}

@@ -20,7 +20,7 @@ git clone https://github.com/macunha1/zsh-terraform \
 ### nvim
 1. Install deps
 ```bash
-curl -LO https://github.com/neovim/neovim/releases/download/v0.7.0/nvim-macos.tar.gz 
+curl -LO https://github.com/neovim/neovim/releases/download/v0.9.1/nvim-macos.tar.gz 
 tar xzf nvim-macos.tar.gz
 
 brew install \
