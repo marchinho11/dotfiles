@@ -3,7 +3,6 @@ export PATH="/usr/local/opt/ruby/bin:$PATH"
 export PATH="/usr/local/opt/libpq/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/dotfiles/bin:$PATH"
-export PATH="/Users/u17485588/Library/Application Support/Coursier/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH" # rabbitmq
 export PATH="$PATH:$HOME/.pub-cache/bin" # flutterfile
 export PATH="/usr/local/lib/ruby/gems/3.1.0/bin:$PATH"
