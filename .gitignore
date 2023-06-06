@@ -10,4 +10,5 @@ htop/
 op/
 
 *.backup
+nvm/
 
