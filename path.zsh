@@ -16,5 +16,5 @@ export PATH="$HOME/code/search-data-pipelines/bin:$PATH"
 export PATH="$HOME/nvim/bin:$PATH"
 export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
 # rust
-export PATH="/Users/mark/.cargo/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
 
