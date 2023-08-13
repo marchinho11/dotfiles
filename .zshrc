@@ -21,12 +21,12 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 source ~/dotfiles/powerlevel10k/powerlevel10k.zsh-theme
 source ~/dotfiles/.fzf.zsh
-source ~/dotfiles/path.zsh
+source ~/dotfiles/.path.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f $XDG_CONFIG_HOME/.p10k.zsh ]] || source $XDG_CONFIG_HOME/.p10k.zsh
 
-xport EDITOR=nvim
+export EDITOR=nvim
 
 alias nv=nvim
 alias python=python3
