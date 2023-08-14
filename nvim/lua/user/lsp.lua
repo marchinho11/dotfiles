@@ -24,8 +24,6 @@ map("n", "<leader>rn", "<cmd>lua vim.lsp.buf.rename()<CR>")
 map("n", "<leader>F", "<cmd>lua vim.lsp.buf.formatting()<CR>")
 
 lspconfig["pyright"].setup {capabilities = capabilities}
-
 lspconfig["gopls"].setup {capabilities = capabilities}
-
 lspconfig["terraformls"].setup {}
 lspconfig["tflint"].setup {}
