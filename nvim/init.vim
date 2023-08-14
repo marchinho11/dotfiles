@@ -31,6 +31,7 @@ Plug 'marchinho11/lkml.vim'
 Plug 'APZelos/blamer.nvim'
 Plug 'terrastruct/d2-vim'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'prettier/vim-prettier'
 call plug#end()
 
 
