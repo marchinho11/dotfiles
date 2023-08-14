@@ -9,6 +9,7 @@ IDE                           | Terminal
 - Install `iterm2`
 - Install fonts from the `iterm2/fira_code/` folder
 - Install the `iterm2_profile.json` from the `iterm2/` folder
+- Colorschemes for `iterm2`: [github.com/](https://github.com/mbadolato/iTerm2-Color-Schemes). `3024 Night`
 - Install `zsh`
 - Run
    ```shell
