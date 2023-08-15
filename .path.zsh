@@ -13,7 +13,9 @@ export PATH="$PATH:$GOPATH/bin"
 export PATH="$HOME/Library/Python/3.9/bin:$PATH"
 export PATH="$HOME/code/search-data-pipelines/bin:$PATH"
 export PATH="$HOME/nvim/bin:$PATH"
-export PATH="/opt/homebrew/opt/llvm/bin:$PATH"
+
+export PATH="/usr/local/opt/llvm/bin:$PATH"
+
 # rust
 export PATH="$HOME/.cargo/bin:$PATH"
 
