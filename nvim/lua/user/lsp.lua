@@ -25,24 +25,4 @@ map("n", "<leader>F", "<cmd>lua vim.lsp.buf.formatting()<CR>")
 
 lspconfig["pyright"].setup {capabilities = capabilities}
 lspconfig["gopls"].setup {capabilities = capabilities}
-lspconfig["terraformls"].setup {}
-lspconfig["tflint"].setup {}
-lspconfig["clangd"].setup {
-  cmd = {
-    "clangd",
-    "--background-index",
-    "--pch-storage=memory",
-    "--all-scopes-completion",
-    "--pretty",
-    "--header-insertion=never",
-    "-j=4",
-    "--inlay-hints",
-    "--header-insertion-decorators",
-    "--function-arg-placeholders",
-    "--completion-style=detailed"
-  },
-  filetypes = {"c", "cpp"},
-  root_dir = require("lspconfig").util.root_pattern("src"),
-  init_option = {},
-  capabilities = capabilities
-}
+

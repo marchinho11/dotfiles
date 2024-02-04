@@ -14,11 +14,6 @@ end
 local cmp = require("cmp")
 cmp.setup(
     {
-      snippet = {
-        expand = function(args)
-          require("snippy").expand_snippet(args.body)
-        end
-      },
       window = {},
       mapping = cmp.mapping.preset.insert(
           {
@@ -50,7 +45,6 @@ cmp.setup(
       sources = cmp.config.sources(
           {
             {name = "nvim_lsp"},
-            {name = "snippy"},
             {
               name = "buffer",
               option = {keyword_pattern = [[\k\+]], keyword_length = 4}

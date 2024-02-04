@@ -1,10 +1,38 @@
 require "user.cmp"
-require "user.toggleterm"
 require "user.lsp"
-require "user.treesitter"
-require "user.todo_comments"
-require "user.terraform"
 
-require("gitsigns").setup {}
-require("snippy").setup({snippet_dirs = "~/dotfiles/snippets"})
-require("bufferline").setup {}
+require("nvim-treesitter.configs").setup(
+    {
+      ensure_installed = {
+        "bash",
+        "dockerfile",
+        "html",
+        "javascript",
+        "json",
+        "make",
+        "python",
+        "java",
+        "proto",
+        "sql",
+        "toml",
+        "vim",
+        "vue",
+        "yaml",
+        "css",
+        "lua",
+        "markdown",
+        "regex",
+        "go",
+        "hcl",
+      },
+      sync_install = false,
+      auto_install = false
+    }
+)
+
+require("toggleterm").setup {
+  size = 20,
+  open_mapping = [[\\]],
+  direction = "horizontal"
+}
+

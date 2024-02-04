@@ -43,10 +43,6 @@ set fileencodings=utf-8
 set backspace=indent,eol,start
 set completeopt=menu,menuone,noselect
 
-" Lua auto format
-autocmd FileType lua nnoremap <buffer> <c-k> :call LuaFormat()<cr>
-autocmd BufWrite *.lua call LuaFormat()
-
 " Blamer config
 let g:blamer_enabled = 1
 let g:blamer_delay = 750

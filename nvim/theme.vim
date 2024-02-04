@@ -1,12 +1,4 @@
-" let g:gruvbox_contrast_dark = 'hard'
-
-" colorscheme jellybeans
-" colorscheme gruvbox
-" colorscheme darcula
-" colorscheme molokai
-" colorscheme sonokai
-" colorscheme github
-colorscheme onedark
+colorscheme gruvbox
 
 " Orange colors for LSP messages in code
 hi DiagnosticError guifg=Orange
