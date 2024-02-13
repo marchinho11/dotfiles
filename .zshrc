@@ -4,10 +4,6 @@ fi
 
 export XDG_CONFIG_HOME="$HOME/dotfiles"
 
-export ZSH=$HOME/.oh-my-zsh
-
-ZSH_THEME='agnoster'
-
 plugins=(
     git 
     kubectl 
@@ -18,10 +14,11 @@ plugins=(
     terraform
 )
 
-source $ZSH/oh-my-zsh.sh
-source $HOME/dotfiles/powerlevel10k/powerlevel10k.zsh-theme
-source $HOME/dotfiles/.fzf.zsh
-source $HOME/dotfiles/.path.zsh
+ZSH_THEME='agnoster'
+source $HOME/.oh-my-zsh/oh-my-zsh.sh
+source $XDG_CONFIG_HOME/powerlevel10k/powerlevel10k.zsh-theme
+source $XDG_CONFIG_HOME/.fzf.zsh
+source $XDG_CONFIG_HOME/.path.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f $XDG_CONFIG_HOME/.p10k.zsh ]] || source $XDG_CONFIG_HOME/.p10k.zsh
@@ -30,8 +27,5 @@ export EDITOR=nvim
 
 alias nv=nvim
 alias python=python3
-alias mux=tmuxinator
-alias t=tmux
 
 eval "$(pyenv init -)"
-
