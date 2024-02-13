@@ -16,8 +16,10 @@ require'nvim-treesitter.configs'.setup {
         "markdown",
         "regex",
         "go",
-        "hcl"
+        "hcl",
+        "terraform"
     },
 	sync_install = false,
-	auto_install = true 
+	auto_install = true,
+	highlight = { enable = true }
 }

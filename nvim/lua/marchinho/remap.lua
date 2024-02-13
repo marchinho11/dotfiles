@@ -1,5 +1,7 @@
 vim.g.mapleader = " "
 
+-- todo: desc param
+
 -- NERDTree
 vim.keymap.set("n", "<C-f>", ":NERDTreeFocus<CR>", {noremap = true, silent = true})
 vim.keymap.set("n", "<C-n>", ":NERDTree<CR>", {noremap = true, silent = true})

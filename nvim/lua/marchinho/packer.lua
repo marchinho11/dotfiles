@@ -11,7 +11,6 @@ return require('packer').startup(function(use)
     use 'tpope/vim-fugitive'
     use 'rafi/awesome-vim-colorschemes'
     use 'nvim-treesitter/nvim-treesitter'
-    use 'jiangmiao/auto-pairs'
     use 'APZelos/blamer.nvim'
     use { 'fatih/vim-go', run = ':GoUpdateBinaries' }
 	use {
