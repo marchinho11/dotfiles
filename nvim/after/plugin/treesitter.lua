@@ -1,5 +1,5 @@
 require'nvim-treesitter.configs'.setup {
-	ensure_installed = {
+    ensure_installed = {
         "bash",
         "dockerfile",
         "html",
@@ -19,7 +19,7 @@ require'nvim-treesitter.configs'.setup {
         "hcl",
         "terraform"
     },
-	sync_install = false,
-	auto_install = true,
-	highlight = { enable = true }
+    sync_install = false,
+    auto_install = true,
+    highlight = { enable = true }
 }
