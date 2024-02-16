@@ -3,7 +3,8 @@ vim.cmd.packadd('packer.nvim')
 return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
     use 'preservim/nerdtree'
-    use 'tpope/vim-commentary'
+    use 'numToStr/Comment.nvim'
+    use 'JoosepAlviste/nvim-ts-context-commentstring'
     use 'nvim-lualine/lualine.nvim'
     use 'akinsho/toggleterm.nvim'
     use { 'junegunn/fzf', run = ":call fzf#install()" }
