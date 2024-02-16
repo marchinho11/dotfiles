@@ -1,0 +1,10 @@
+# https://github.com/alacritty/alacritty-theme
+import = [
+    "~/.config/alacritty/themes/themes/night_owlish_light.toml"
+]
+
+[font]
+size = 17.0
+
+[window]
+dimensions = {columns = 100, lines = 35}

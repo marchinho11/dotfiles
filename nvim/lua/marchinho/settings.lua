@@ -1,4 +1,5 @@
-vim.cmd.colorscheme('gruvbox')
+vim.o.background = 'light'
+vim.cmd.colorscheme('github_light')
 
 vim.api.nvim_command('hi DiagnosticError guifg=Orange')
 vim.api.nvim_command('hi DiagnosticWarn guifg=Orange')

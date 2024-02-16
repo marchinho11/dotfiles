@@ -9,7 +9,8 @@ return require('packer').startup(function(use)
     use { 'junegunn/fzf', run = ":call fzf#install()" }
     use 'junegunn/fzf.vim'
     use 'tpope/vim-fugitive'
-    use 'rafi/awesome-vim-colorschemes'
+    use 'ellisonleao/gruvbox.nvim'
+    use 'projekt0n/github-nvim-theme'
     use 'nvim-treesitter/nvim-treesitter'
     use 'APZelos/blamer.nvim'
     use { 'fatih/vim-go', run = ':GoUpdateBinaries' }
