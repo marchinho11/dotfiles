@@ -1,5 +1,10 @@
 vim.o.background = 'light'
 vim.cmd.colorscheme('github_light')
+-- vim.o.background = 'dark'
+-- vim.cmd.colorscheme('gruvbox')
+
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
 
 vim.api.nvim_command('hi DiagnosticError guifg=Orange')
 vim.api.nvim_command('hi DiagnosticWarn guifg=Orange')

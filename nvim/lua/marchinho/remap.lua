@@ -3,13 +3,13 @@ vim.g.mapleader = " "
 -- todo: desc param
 
 -- NERDTree
-vim.keymap.set("n", "<C-f>", ":NERDTreeFocus<CR>", {noremap = true, silent = true})
-vim.keymap.set("n", "<C-n>", ":NERDTree<CR>", {noremap = true, silent = true})
-vim.keymap.set("n", "<C-t>", ":NERDTreeToggle<CR>", {noremap = true, silent = true})
+vim.keymap.set("n", "<C-f>", ":NvimTreeFocus<CR>", {noremap = true, silent = true})
+vim.keymap.set("n", "<C-t>", ":NvimTreeToggle<CR>", {noremap = true, silent = true})
+vim.keymap.set("n", "<C-n>", ":NvimTreeFindFile<CR>", {noremap = true, silent = true})
 
 -- fzf
 vim.keymap.set("n", "<leader>p", ":FZF<CR>")
-vim.keymap.set("n", "<leader>f", ":Rg")
+vim.keymap.set("n", "<leader>f", ":RG<CR>")
 
 -- Esc false positives
 vim.keymap.set("n", "<F1>", "<esc>")

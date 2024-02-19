@@ -2,7 +2,7 @@ vim.cmd.packadd('packer.nvim')
 
 return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
-    use 'preservim/nerdtree'
+    use 'nvim-tree/nvim-tree.lua'
     use 'numToStr/Comment.nvim'
     use 'JoosepAlviste/nvim-ts-context-commentstring'
     use 'nvim-lualine/lualine.nvim'

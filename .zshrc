@@ -17,7 +17,6 @@ plugins=(
 ZSH_THEME='agnoster'
 source $HOME/.oh-my-zsh/oh-my-zsh.sh
 source $XDG_CONFIG_HOME/powerlevel10k/powerlevel10k.zsh-theme
-source $XDG_CONFIG_HOME/.fzf.zsh
 source $XDG_CONFIG_HOME/.path.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
