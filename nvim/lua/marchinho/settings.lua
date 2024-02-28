@@ -1,15 +1,9 @@
-vim.o.background = 'light'
-vim.cmd.colorscheme('github_light')
--- vim.o.background = 'dark'
--- vim.cmd.colorscheme('gruvbox')
-
-vim.g.loaded_netrw = 1
-vim.g.loaded_netrwPlugin = 1
-
-vim.api.nvim_command('hi DiagnosticError guifg=Orange')
-vim.api.nvim_command('hi DiagnosticWarn guifg=Orange')
-vim.api.nvim_command('hi DiagnosticInfo guifg=Orange')
-vim.api.nvim_command('hi DiagnosticHint guifg=Orange')
+vim.cmd[[
+  :hi DiagnosticError guifg=Orange
+  :hi DiagnosticWarn guifg=Orange
+  :hi DiagnosticInfo guifg=Orange
+  :hi DiagnosticInfo guifg=Orange
+]]
 
 vim.api.nvim_set_option('clipboard', 'unnamed')
 
@@ -20,7 +14,7 @@ vim.o.syntax = enable
 vim.o.number = true
 vim.o.relativenumber = true
 vim.o.cursorline = true
-vim.o.scrolloff = 7
+vim.o.scrolloff = 20
 vim.o.expandtab = true
 vim.o.tabstop = 4
 vim.o.softtabstop = 4

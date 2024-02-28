@@ -14,6 +14,8 @@ return require('packer').startup(function(use)
     use 'projekt0n/github-nvim-theme'
     use 'nvim-treesitter/nvim-treesitter'
     use 'APZelos/blamer.nvim'
+    use 'lewis6991/gitsigns.nvim'
+    use 'terrastruct/d2-vim'
     use { 'fatih/vim-go', run = ':GoUpdateBinaries' }
     use {
         'VonHeikemen/lsp-zero.nvim',
