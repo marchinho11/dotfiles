@@ -6,10 +6,10 @@ vim.g.mapleader = " "
 vim.keymap.set("n", "<C-f>", ":NvimTreeFocus<CR>", {noremap = true, silent = true})
 vim.keymap.set("n", "<C-t>", ":NvimTreeToggle<CR>", {noremap = true, silent = true})
 vim.keymap.set("n", "<C-n>", ":NvimTreeFindFile<CR>", {noremap = true, silent = true})
-
--- fzf
 vim.keymap.set("n", "<leader>p", ":FZF<CR>")
 vim.keymap.set("n", "<leader>f", ":RG<CR>")
+vim.keymap.set("n", "<leader>h", ":Gitsigns preview_hunk<CR>")
+vim.keymap.set("n", "<leader>g", ":Gvdiffsplit<CR>")
 
 -- Esc false positives
 vim.keymap.set("n", "<F1>", "<esc>")

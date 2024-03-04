@@ -5,7 +5,7 @@ import = [
 
 [font]
 size = 15.0
-normal = {"family" = "JetBrains Mono"}
+normal = {family = "JetBrains Mono", style = "Regular"}
 
 [window]
 dimensions = {columns = 100, lines = 35}
