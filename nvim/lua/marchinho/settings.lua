@@ -1,10 +1,3 @@
-vim.cmd[[
-  :hi DiagnosticError guifg=Orange
-  :hi DiagnosticWarn guifg=Orange
-  :hi DiagnosticInfo guifg=Orange
-  :hi DiagnosticInfo guifg=Orange
-]]
-
 vim.api.nvim_set_option('clipboard', 'unnamed')
 
 -- Autoreload
