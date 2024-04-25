@@ -2,7 +2,6 @@
 .idea/
 tool_state
 
-
 configstore/
 pgcli/
 jgit/
@@ -20,5 +19,7 @@ ngrok/
 containers/
 nvim/plugin
 
-tmux_vio.sh
 alacritty/themes
+
+exercism
+

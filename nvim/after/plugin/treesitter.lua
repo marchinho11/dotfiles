@@ -17,7 +17,7 @@ require'nvim-treesitter.configs'.setup {
         "regex",
         "go",
         "hcl",
-        "terraform"
+        "terraform",
     },
     sync_install = false,
     auto_install = true,

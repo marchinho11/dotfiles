@@ -3,7 +3,7 @@ local lsp = require("lsp-zero")
 lsp.on_attach(function(client, bufnr)
     lsp.default_keymaps({buffer = bufnr})
 end)
-lsp.setup_servers({'pyright', 'gopls', 'terraformls', 'tsserver'})
+lsp.setup_servers({'pyright', 'gopls', 'terraformls', 'tsserver', 'zls'})
 
 local cmp = require('cmp')
 local cmp_action = lsp.cmp_action()
