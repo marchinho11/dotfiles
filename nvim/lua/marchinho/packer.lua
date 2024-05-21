@@ -21,6 +21,7 @@ return require('packer').startup(function(use)
     use 'projekt0n/github-nvim-theme'
     use 'nyoom-engineering/oxocarbon.nvim'
     use 'rebelot/kanagawa.nvim'
+    use 'ofirgall/ofirkai.nvim'
     use {
         'VonHeikemen/lsp-zero.nvim',
         branch = 'v3.x',
