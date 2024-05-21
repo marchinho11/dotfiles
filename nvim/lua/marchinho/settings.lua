@@ -1,6 +1,6 @@
 vim.api.nvim_set_option('clipboard', 'unnamed')
 
---- Autoreload
+-- Autoreload
 vim.cmd([[autocmd FocusGained,BufEnter * checktime]])
 
 vim.o.syntax = enable
