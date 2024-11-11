@@ -18,6 +18,7 @@ ZSH_THEME='agnoster'
 source $HOME/.oh-my-zsh/oh-my-zsh.sh
 source $XDG_CONFIG_HOME/powerlevel10k/powerlevel10k.zsh-theme
 source $XDG_CONFIG_HOME/.path.zsh
+. "$HOME/.cargo/env" 
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f $XDG_CONFIG_HOME/.p10k.zsh ]] || source $XDG_CONFIG_HOME/.p10k.zsh

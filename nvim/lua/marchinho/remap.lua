@@ -1,6 +1,7 @@
 vim.g.mapleader = " "
 
--- todo: desc param
+vim.opt.langmap = 'ФИСВУАПРШОЛДЬТЩЗЙКЫЕГМЦЧНЯ;ABCDEFGHIJKLMNOPQRSTUVWXYZ,'..
+                  'фисвуапршолдьтщзйкыегмцчня;abcdefghijklmnopqrstuvwxyz'
 
 -- NERDTree
 vim.keymap.set("n", "<C-f>", ":NvimTreeFocus<CR>", {noremap = true, silent = true})

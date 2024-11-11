@@ -18,6 +18,7 @@ require'nvim-treesitter.configs'.setup {
         "go",
         "hcl",
         "terraform",
+        "helm"
     },
     sync_install = false,
     auto_install = true,
