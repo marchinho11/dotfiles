@@ -27,5 +27,6 @@ export EDITOR=nvim
 
 alias nv=nvim
 alias python=python3
+alias venv="source .venv/bin/activate"
 
 eval "$(pyenv init -)"

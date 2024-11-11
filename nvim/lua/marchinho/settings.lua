@@ -31,3 +31,7 @@ vim.o.encoding = "utf-8"
 vim.o.fileencodings = "utf-8"
 vim.o.backspace = "indent,eol,start"
 vim.o.completeopt = "menu,menuone,noselect"
+
+-- fzf
+vim.env.FZF_DEFAULT_COMMAND='fd --type f --strip-cwd-prefix'
+

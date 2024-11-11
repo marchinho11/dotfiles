@@ -19,6 +19,7 @@ require'nvim-treesitter.configs'.setup {
         "hcl",
         "terraform",
         "helm"
+        "rust",
     },
     sync_install = false,
     auto_install = true,

@@ -10,3 +10,5 @@ export PATH="$HOME/nvim/bin:$PATH"
 export PATH="/usr/local/opt/llvm/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/zig:$PATH"
+export PATH="/usr/local/opt/openjdk@11/bin:$PATH"
+
