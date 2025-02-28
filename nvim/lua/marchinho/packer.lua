@@ -4,7 +4,6 @@ return require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'
     use 'nvim-tree/nvim-tree.lua'
     use 'numToStr/Comment.nvim'
-    use 'JoosepAlviste/nvim-ts-context-commentstring'
     use 'nvim-lualine/lualine.nvim'
     use { 'junegunn/fzf', run = ":call fzf#install()" }
     use 'junegunn/fzf.vim'
@@ -13,15 +12,24 @@ return require('packer').startup(function(use)
     use 'APZelos/blamer.nvim'
     use 'lewis6991/gitsigns.nvim'
     use 'terrastruct/d2-vim'
-    use 'ziglang/zig.vim'
-    use 'vim-crystal/vim-crystal'
     use 'fatih/vim-go'
-    -- Themes
-    use 'ellisonleao/gruvbox.nvim'
-    use 'projekt0n/github-nvim-theme'
-    use 'nyoom-engineering/oxocarbon.nvim'
-    use 'rebelot/kanagawa.nvim'
-    use 'ofirgall/ofirkai.nvim'
+
+    -- Avante
+    use 'stevearc/dressing.nvim'
+    use 'nvim-lua/plenary.nvim'
+    use 'MunifTanjim/nui.nvim'
+    use 'MeanderingProgrammer/render-markdown.nvim'
+    use 'HakonHarnes/img-clip.nvim'
+
+    use {
+        'yetone/avante.nvim',
+        branch = 'main',
+        run = 'make',
+        config = function()
+          require('avante').setup()
+        end
+    }
+
     use {
         'VonHeikemen/lsp-zero.nvim',
         branch = 'v3.x',
