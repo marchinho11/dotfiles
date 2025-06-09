@@ -20,6 +20,7 @@ require'nvim-treesitter.configs'.setup {
         "terraform",
         "helm",
         "rust",
+        "scala"
     },
     sync_install = false,
     auto_install = true,
