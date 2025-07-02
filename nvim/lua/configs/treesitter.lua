@@ -1,0 +1,35 @@
+return {
+  ensure_installed = {
+    "lua",
+    "luadoc",
+    "vim",
+    "bash",
+    "dockerfile",
+    "html",
+    "javascript",
+    "json",
+    "make",
+    "python",
+    "proto",
+    "sql",
+    "toml",
+    "vim",
+    "yaml",
+    "lua",
+    "markdown",
+    "regex",
+    "go",
+    "hcl",
+    "terraform",
+    "helm",
+    "rust",
+    "scala",
+  },
+
+  highlight = {
+    enable = false,
+    use_languagetree = true,
+  },
+
+  indent = { enable = true },
+}
