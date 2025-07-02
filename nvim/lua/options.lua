@@ -1,4 +1,4 @@
-vim.api.nvim_set_option_value("clipboard", "unnamed")
+vim.api.nvim_set_option_value("clipboard", "unnamed", {})
 
 vim.o.syntax = "enable"
 vim.o.number = true

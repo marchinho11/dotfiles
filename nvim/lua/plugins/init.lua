@@ -108,21 +108,21 @@ return {
       require("nvim-treesitter.configs").setup(opts)
     end,
   },
-  {
-    "rebelot/kanagawa.nvim",
-    lazy = false,
-    opts = function()
-      return {
-        theme = "dragon",
-        dimInactive = true,
-        statementStyle = { bold = true },
-        background = {
-          dark = "dragon",
-          light = "lotus",
-        },
-      }
-    end,
-  },
+  -- {
+  --   "rebelot/kanagawa.nvim",
+  --   lazy = false,
+  --   opts = function()
+  --     return {
+  --       theme = "dragon",
+  --       dimInactive = true,
+  --       statementStyle = { bold = true },
+  --       background = {
+  --         dark = "dragon",
+  --         light = "lotus",
+  --       },
+  --     }
+  --   end,
+  -- },
   {
     "projekt0n/github-nvim-theme",
     lazy = false,
