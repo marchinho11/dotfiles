@@ -123,14 +123,31 @@ return {
   --     }
   --   end,
   -- },
+  -- {
+  --   "projekt0n/github-nvim-theme",
+  --   lazy = false,
+  --   config = function()
+  --     require("github-theme").setup {}
+  --     vim.cmd "colorscheme github_dark_dimmed"
+  --   end,
+  -- },
   {
-    "projekt0n/github-nvim-theme",
+    "savq/melange-nvim",
     lazy = false,
     config = function()
-      require("github-theme").setup {}
-      vim.cmd "colorscheme github_dark_dimmed"
+      vim.cmd "colorscheme melange"
     end,
   },
+  -- {
+  --   "vague2k/vague.nvim",
+  --   lazy = false,
+  --   config = function()
+  --     -- NOTE: you do not need to call setup if you don't want to.
+  --     require("vague").setup {
+  --       -- optional configuration here
+  --     }
+  --   end,
+  -- },
   {
     "yetone/avante.nvim",
     event = "VeryLazy",

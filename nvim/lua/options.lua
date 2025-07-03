@@ -29,7 +29,7 @@ vim.o.fileencodings = "utf-8"
 vim.o.backspace = "indent,eol,start"
 vim.o.completeopt = "menu,menuone,noselect"
 
-vim.o.background = "dark"
+-- vim.o.background = "dark"
 -- vim.cmd.colorscheme "kanagawa"
 
 -- vim.o.background = "light"
