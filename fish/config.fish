@@ -10,6 +10,7 @@ alias k=kubectl
 
 test -f $HOME/.claude.rc && source $HOME/.claude.rc
 
-fish_add_path /Users/arseny/.pixi/bin
-fish_add_path /Users/arseny/.local/bin
+fish_add_path ~/.pixi/bin
+fish_add_path ~/.local/bin
 
+status --is-interactive; and rbenv init - --no-rehash fish | source
