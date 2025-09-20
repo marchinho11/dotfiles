@@ -1,5 +1,0 @@
-theme = "darcula-solid"
-
-[editor.cursor-shape]
-insert = "bar"
-
