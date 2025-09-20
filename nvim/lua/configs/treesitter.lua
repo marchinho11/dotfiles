@@ -24,10 +24,11 @@ return {
     "helm",
     "rust",
     "scala",
+    "gleam",
   },
 
   highlight = {
-    enable = false,
+    enable = true,
     use_languagetree = true,
   },
 

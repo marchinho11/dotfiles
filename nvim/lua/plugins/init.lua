@@ -84,7 +84,7 @@ return {
     event = "User FilePost",
     config = function()
       require("configs.lspconfig").defaults()
-      vim.lsp.enable { "pyright", "gopls", "terraformls", "lua_ls" }
+      vim.lsp.enable { "pyright", "gopls", "terraformls", "lua_ls", "gleam" }
     end,
   },
   {
@@ -172,5 +172,12 @@ return {
       vim.g.blamer_show_in_insert_modes = 0
       vim.g.blamer_date_format = "%d.%m.%y"
     end,
+  },
+  {
+    "lukas-reineke/indent-blankline.nvim",
+    enabled = false,
+    lazy = false,
+    main = "ibl",
+    opts = {},
   },
 }

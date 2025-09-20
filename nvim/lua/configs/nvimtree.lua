@@ -8,7 +8,7 @@ return {
     update_root = false,
   },
   view = {
-    side = "right",
+    side = "left",
     width = 40,
     preserve_window_proportions = true,
   },

@@ -14,3 +14,6 @@ fish_add_path ~/.pixi/bin
 fish_add_path ~/.local/bin
 
 status --is-interactive; and rbenv init - --no-rehash fish | source
+
+set fish_greeting
+
