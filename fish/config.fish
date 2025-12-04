@@ -17,3 +17,10 @@ status --is-interactive; and rbenv init - --no-rehash fish | source
 
 set fish_greeting
 
+function fish_right_prompt
+  set -l k8s_color (set_color blue)
+  set -l k8s_context (kubectl config current-context)
+
+  echo -e -n -s $k8s_color "(k8s: $k8s_context)"
+end
+
