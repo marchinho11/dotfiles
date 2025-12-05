@@ -25,6 +25,8 @@ return {
     "rust",
     "scala",
     "gleam",
+    "c",
+    "cpp",
   },
 
   highlight = {

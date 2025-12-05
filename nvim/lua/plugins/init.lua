@@ -127,14 +127,16 @@ return {
   --   "projekt0n/github-nvim-theme",
   --   lazy = false,
   --   config = function()
+  --     vim.o.background = "light"
   --     require("github-theme").setup {}
-  --     vim.cmd "colorscheme github_dark_dimmed"
+  --     vim.cmd "colorscheme github_light"
   --   end,
   -- },
   {
     "savq/melange-nvim",
     lazy = false,
     config = function()
+      -- vim.o.background = "light"
       vim.cmd "colorscheme melange"
     end,
   },

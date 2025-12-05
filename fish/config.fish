@@ -24,3 +24,5 @@ function fish_right_prompt
   echo -e -n -s $k8s_color "(k8s: $k8s_context)"
 end
 
+direnv hook fish | source
+
